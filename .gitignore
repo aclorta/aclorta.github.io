@@ -1,4 +1,27 @@
-_site/
+# Vim
 *.swp
 *.swo
 *~
+
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle
+vendor/
+Gemfile.lock
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite3-journal
+
+# System files
+.DS_Store
+Thumbs.db

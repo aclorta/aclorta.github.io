@@ -1,12 +1,14 @@
 body {
-    background-color: #2e2e2e; /* Eggshell color */
+    background-color: #2e2e2e;
     color: #ffffff; /* Ensure text is readable */
     margin: 60px auto;
     width: 70%;
-    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    /* font-family: Arial, sans-serif; */
+    font-family: 'CMU Serif', sans-serif;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+    font-family: 'CMU Serif', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -24,7 +26,8 @@ a:hover {
 }
 h3 {
     font-size: 1.25em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /* font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
+    font-family: 'CMU Serif', sans-serif;
 }
 p {
     /* font-size: 1.5em;
